@@ -16,7 +16,7 @@ td:nth-child(3)
   {
 text-align: center;
   }
-td:nth-child(4) th:nth-child(4)
+td:nth-child(4), th:nth-child(4)
 {
     text-align: right;
 }
@@ -37,4 +37,44 @@ tr:nth-child(1),tr:nth-child(3)
   {
     background-color: yellow;
   }
- 
+.rektangel
+{
+width:450px;
+height:350px;
+border:2px;
+border-collapse:collapse;
+
+}
+.blue
+{
+background-color: blue;
+}
+
+.yellow
+{
+background-color: yellow;
+}
+
+.green
+{
+background-color: lime;
+}
+
+.red
+{
+background-color: red;
+}
+
+.black
+{
+background-color: black;
+}
+
+
+
+
+
+
+
+
+
