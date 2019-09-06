@@ -1,0 +1,40 @@
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+
+  }
+
+th
+  {
+background-color: grey;
+  }
+td:nth-child(2)
+  {
+text-align: center;
+  }
+td:nth-child(3)
+  {
+text-align: center;
+  }
+td:nth-child(4) th:nth-child(4)
+{
+    text-align: right;
+}
+
+caption
+{
+    caption-side: bottom;
+    font-size: 200%;
+}
+
+tr:nth-child(2), tr:nth-child(4)
+  {
+background-color: red;
+color: white;
+}
+
+tr:nth-child(1),tr:nth-child(3)
+  {
+    background-color: yellow;
+  }
+ 
