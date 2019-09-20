@@ -1,58 +1,71 @@
+<!--Deklarerar att HTML används-->
 <!DOCTYPE html>
+<!--Starttagg för HTML dokument-->
 <html>
-<head>
+<!--Starttagg för "gömd informtation" för sidan samt vilket språk som används-->
+<head lang ="sv">
+<!--Deklarerar att denna sorts teckenkodning används-->
 	<meta charset="utf-8">
+	<!--Anpassar Sidan efter vilken källa som öppnar den-->
 	<meta name ="viewport" content="width=device-widhth">
+	<!--Titeln för hemsidan-->
 	<title> Egen Hemsida </title>
+	<!--Använder Css dokumentet-->
 	<link href="front.css" rel="stylesheet">
-	
+<!--Sluttagg för "head" dokument-->	
 </head>
+<!--Starttagg för sidans synliga innehåll-->
+	<body>
+	    <!--Länk till en annan sida-->
+		<a href="home.html" class="knapp">Hem</a>
+		<!--Skapar en tabell-->
+		<table>
+			<!--Tabellens beskrivning-->
+			<caption>Lista äver Zebror</caption>
+		<!--Toppen av tabellen-->
+			<thead>
+			<!--En "rad" i tabellen-->
+				<tr>
+				<!--Innehållet av huvudraden-->
+					<th> Art Namn: </th>
+					<th>Färg? </th>
+					<th>Vikt: </th>
+					<th>Är en Zebra: </th>
+				</tr>
+			</thead>
+			<!--inehållet av tabellen-->
+			<tbody>
+				<tr> 
+				<!--Innehållet av de nedre raderna-->
+					<td >Stäppzebra</td>
+					<td>Vit/Svart</td>
+					<td>230 KG</td>
+					<td>Ja</td>
+				</tr>
 
-<body>
-<a href="new 1.html" class="knapp">Hem</a>
-<table>
-<caption>Lista äver Zebror</caption>
-<thead>
+				<tr>
+					<td>Grevyzebra</td>
+					<td>Vit/Svart</td>
+					<td>380 KG</td>
+					<td>Ja</td>
+				</tr>
 
-<tr>
-<th> Art Namn: </th>
-<th>Färg? </th>
-<th>Vikt: </th>
-<th>Är en Zebra: </th>
-</tr>
-</thead>
+				<tr>
+					<td>Bergzebra</td>
+					<td>Vit/Svart</td>
+					<td>280 KG</td>
+					<td>Ja</td>
+				</tr>
 
-<tbody>
+				<tr>
+					<td>Häst</td>
+					<td>Brun</td>
+					<td>1000 KG</td>
+					<td>Nej</td>
+					</tr>
+			</tbody>
+		</table>
 
-<tr> 
-<td >Stäppzebra</td>
-<td>Vit/Svart</td>
-<td>230 KG</td>
-<td>Ja</td>
-</tr>
-
-<tr>
-<td>Grevyzebra</td>
-<td>Vit/Svart</td>
-<td>380 KG</td>
-<td>Ja</td>
-</tr>
-
-<tr>
-<td>Bergzebra</td>
-<td>Vit/Svart</td>
-<td>280 KG</td>
-<td>Ja</td>
-</tr>
-
-<tr>
-<td>Häst</td>
-<td>Brun</td>
-<td>1000 KG</td>
-<td>Nej</td>
-</tr>
-</tbody>
-
-</body>
+	</body>
 
 </html>

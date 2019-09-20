@@ -1,54 +1,71 @@
-
+/* bakgrundsfärg*/
+body
+{
+	background-color:gray;
+	
+}
+/* Ändrar storleken för rubriker*/
 h1
 {
 	text-align: center;
 	font-size:200%;
 	
 }
+/* Sätter tabellens storlek, centrerear texten, Sammanfogar "borders"*/
 table, th, td
  {
-width:550px;
-height:100px;
-border:1px solid black;
-border-collapse:collapse;
-text-align:center;
+	width:550px;
+	height:100px;
+	border:1px solid black;
+	border-collapse:collapse;
+	text-align:center;
 }
+/* Skapar ett utseende på speiciella länkar*/
 .knapp
  {
-border:3px solid grey;
-text-decoration:none;
-font-size:25px;
-background-color:grey;
+	border:3px solid grey;
+	text-decoration:none;
+	font-size:25px;
+	background-color:white;
 
- }
+}
+/* Ändrar storleken på "caption"*/
 caption
 {
 	font-size:30px;
 	
 }
+/* Ändrar på tabellhuvudet*/
 th
 {
 	background-color:black;
 	color: white;
 	border-color:white;
 }
+/* Gruppselektor för tabellkroppen*/
 tr:nth-child(2),tr:nth-child(4)
 {
 	background-color:black;
 	color: white;
-	border-color:white;
 	font-family:Arial;
+	border:white;
 }
+/* Gruppselektor för tabellkroppen*/
+tr:nth-child(3),tr:nth-child(1)
+{
+	background-color:white;
+	color:black;
+	border:black;
+	font-family: Arial;
+}
+/* Ändrar storleken på alla bilder på hemsidan*/
 img
 {
 	width:160px;
 	height:160px;
 }
-dl
-{
-list-style-type:circle;
-}
-/* mouse over link */
+
+/*När musen hoverar över länken */
 a:hover {
   color: #FF00FF;
 }
