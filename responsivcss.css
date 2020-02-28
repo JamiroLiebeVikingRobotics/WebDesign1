@@ -1,0 +1,40 @@
+#bakgrund
+{
+	background-color: rgba(83,142,202, 1);
+}
+
+#rod
+{
+	background-color: rgba(255,0,0, 1);
+}
+#bla
+{
+	background-color: rgba(0,0,255, 1);
+}
+#gul
+{
+	background-color: rgba(255,255,0, 1);
+}
+#gron
+{
+	background-color: rgba(0,255,0, 1);
+}
+h1
+{
+	text-align: center;
+	font-size: 10vw;
+}
+ 
+table
+{
+	width: 100vw;
+	height: 100vh;
+	border-collapse;
+}
+#cirkel {
+	margin: auto;
+    background-color: yellow;
+    width: 50%;
+    height: 100%;
+    border-radius:50%;
+}
